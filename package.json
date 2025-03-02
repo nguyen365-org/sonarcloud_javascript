@@ -1,0 +1,11 @@
+{
+  "name": "sonarcloud_javascript",
+  "scripts": {
+    "test": "jest --coverage",
+    "sonar": "sonar-scanner"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "sonar-scanner": "^3.1.0"
+  }
+}
