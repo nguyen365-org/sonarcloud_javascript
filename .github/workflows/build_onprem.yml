@@ -1,6 +1,8 @@
-name: Build - GitHub Runner
+name: Build - OnPrem Runner
 
 on:
+  workflow_dispatch:
+  
   push:
     branches:
       - main
@@ -10,7 +12,7 @@ on:
 jobs:
   sonarqube:
     name: SonarQube Analysis
-    runs-on: windows-latest
+    runs-on: win_onprem
     steps:
       - uses: actions/checkout@v4
         with:
