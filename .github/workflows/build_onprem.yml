@@ -42,8 +42,8 @@ jobs:
           args: >
             -Dsonar.projectKey=nguyen365-org_sonarcloud_javascript
             -Dsonar.organization=nguyen365-org
-            -Dsonar.sources=WebApplication/Scripts
-            -Dsonar.exclusions=node_modules/**
+            -Dsonar.sources=src
+            -Dsonar.tests=test
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
             -Dsonar.verbose=true
         env:
