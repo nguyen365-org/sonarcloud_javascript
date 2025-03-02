@@ -12,7 +12,7 @@ on:
 jobs:
   sonarqube:
     name: SonarQube Analysis
-    runs-on: win_onprem
+    runs-on: win_on_prem
     steps:
       - uses: actions/checkout@v4
         with:
