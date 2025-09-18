@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     # Assign PRs to the 'administrators' team
     assignees:
       - "nguyen365-org/Administrators"
@@ -13,30 +13,7 @@ updates:
   - package-ecosystem: "nuget"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     assignees:
       - "nguyen365-org/Administrators"
-
-  # Enable version updates for Docker
-  - package-ecosystem: "docker"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    assignees:
-      - "nguyen365-org/Administrators"
-
-  # Enable version updates for Maven
-  - package-ecosystem: "maven"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    assignees:
-      - "nguyen365-org/Administrators"
-
-  # Enable version updates for Pip
-  - package-ecosystem: "pip"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    assignees:
-      - "nguyen365-org/Administrators"      
+ 
