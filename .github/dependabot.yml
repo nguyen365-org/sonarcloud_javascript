@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     # Assign PRs to the 'administrators' team
     assignees:
       - "nguyen365-org/Administrators"
